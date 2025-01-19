@@ -1,28 +1,44 @@
 {
   "expo": {
-    "name": "weatherforecast",
-    "slug": "weatherforecast",
+    "name": "Weather App",
+    "slug": "weather-app",
+    "description": "Stay updated with the latest weather information with our intuitive and easy-to-use Weather App. Whether you’re planning your day or traveling to a new destination, this app has you covered with accurate and real-time weather updates.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash-screen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to show the weather."
+      },
+      "bundleIdentifier": "com.markalfreysegovia.weatherapp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.markalfreysegovia.weatherapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "51d9bc1a-6490-4e1a-96f3-b654943bec90"
+      }
+    },
+    "owner": "markalfreysegovia"
   }
 }

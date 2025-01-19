@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1737272051000" clover="3.2.0">
+  <project timestamp="1737272051000" name="All files">
+    <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="6" coveredelements="0" complexity="0" loc="6" ncloc="6" packages="1" files="3" classes="3"/>
+    <file name="jest.config.js" path="C:\Users\marka\Documents\_me\Programming\Mobile Apps\weatherforecast\jest.config.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+    </file>
+    <file name="metro.config.js" path="C:\Users\marka\Documents\_me\Programming\Mobile Apps\weatherforecast\metro.config.js">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="tailwind.config.js" path="C:\Users\marka\Documents\_me\Programming\Mobile Apps\weatherforecast\tailwind.config.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
