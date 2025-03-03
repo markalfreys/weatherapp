@@ -6,6 +6,7 @@ module.exports = function (api) {
         "nativewind/babel",
       ],
       plugins: [
+<<<<<<< HEAD
         [
           'module:react-native-dotenv',
           {
@@ -14,6 +15,14 @@ module.exports = function (api) {
             path: '.env',
           },
         ],
+=======
+        ['module:react-native-dotenv', {
+          envName: 'APP_ENV',
+          moduleName: '@env',
+          path: '.env',
+          allowUndefined: true,
+        }],
+>>>>>>> c781817ecc0c62439f0c9f9ff297547333f58a88
       ],
       env: {
         production: {

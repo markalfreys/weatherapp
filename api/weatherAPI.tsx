@@ -1,6 +1,10 @@
 import axios from "axios";
 import { APIURL, APIKEY } from '@env';
 import { WeatherParams } from "../types"; // Import the WeatherParams type for defining the expected parameters
+<<<<<<< HEAD
+=======
+import { APIURL, APIKEY } from '@env';
+>>>>>>> c781817ecc0c62439f0c9f9ff297547333f58a88
 
 //Fetch current weather data on openweathermap.org based on geographic coordinates.
 export const fetchWeatherByGeoCode = async ({ lat, lon, units }: WeatherParams) => {
