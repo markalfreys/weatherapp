@@ -23,8 +23,8 @@ export default function TemperatureToggle({ temp }: { temp: number }) {
         }else{
             setConvertedTemp(temp)
         }
-    }, [unit])
-    
+    }, [temp, unit])
+
     // displays the Temperature with the C | F  temperature toggle button
     return (
         <View className='flex flex-row items-center relative'>

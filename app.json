@@ -9,29 +9,34 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-screen.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#77B0D8"
     },
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "We need your location to show the weather."
       },
-      "bundleIdentifier": "com.markalfreysegovia.weatherapp"
+      "bundleIdentifier": "com.markalfreysegovia.weatherapp",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/favicon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#77B0D8"
       },
       "permissions": [
+        "ACCESS_FINE_LOCATION",
         "ACCESS_FINE_LOCATION"
       ],
-      "package": "com.markalfreysegovia.weatherapp"
+      "package": "com.markalfreysegovia.weatherapp",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
-      "favicon": "./assets/favicon.png",
+      "favicon": "./assets/icon.png",
       "bundler": "metro"
     },
     "extra": {
@@ -39,6 +44,9 @@
         "projectId": "51d9bc1a-6490-4e1a-96f3-b654943bec90"
       }
     },
-    "owner": "markalfreysegovia"
+    "owner": "markalfreysegovia",
+    "updates": {
+      "url": "https://u.expo.dev/51d9bc1a-6490-4e1a-96f3-b654943bec90"
+    }
   }
 }
